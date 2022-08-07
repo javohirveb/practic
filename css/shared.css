@@ -76,6 +76,7 @@ header ul {
     font-weight: 400;
     font-size: 1rem;
     line-height: 19px;
+    color: #000;
     text-decoration: none;
     border: 1px solid #C3C3C3;
 }
@@ -125,9 +126,41 @@ footer p {
 
 @media only screen and (max-width: 767px) {
 
+    .header-container {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
 
-
-
+    footer p {
+        padding: 1.75rem;
+        font-size: 1.25rem;
+    }
 }
 
 
+@media only screen and (max-width: 497px) {
+
+    .header-container {
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+    }
+
+    .fa-bars {
+        transform: scale(1);
+    }
+
+    .language {
+        font-size: 0.75rem;
+        margin-right: 1.5rem;
+    }
+
+    .social-networks li {
+        transform: scale(0.8);
+        margin-right: 0.5rem;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+}
