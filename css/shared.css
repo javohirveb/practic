@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+.container {
+    width: 100%;
+    max-width: 1296px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header section*/
+
+header {
+    border-bottom: 1px solid #C3C3C3;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+}
+
+.fa-bars {
+    display: none;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav li {
+    list-style: none;
+    margin-right: 2.8125rem;
+}
+
+.nav li:last-child {
+    margin-right: 0;
+}
+
+.nav li a {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.language {
+    margin-right: 2.9375rem;
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 19px;
+    text-decoration: none;
+    border: 1px solid #C3C3C3;
+}
+
+.language i {
+    color: #C3C3C3;
+    margin-left: 1rem;
+}
+
+.social-networks li {
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.social-networks li:last-child {
+    margin-right: 0;
+}
+
+/* footer section */
+
+footer {
+    background-color: #0B052F;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 29px;
+    text-align: center;
+    padding: 4rem 1.25rem;
+    color: #FFFFFF;
+}
+
+/* media queries */
+@media only screen and (max-width: 991px) {
+
+    .nav {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+        transform: scale(1.5);
+        color: #1d1d1d;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+
+
+
+}
+
+
