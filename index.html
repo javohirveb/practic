@@ -12,7 +12,16 @@
 <body>
     <header>
         <div class="container header-container">
-            <i class="fa-solid fa-bars"></i>
+            <div class="bars-main">
+                <button class="bars"><i class="fa-solid fa-bars"></i></button>
+                <div class="bars-content">
+                    <a href="#hero">home</a>
+                    <a href="#publications">publications</a>
+                    <a href="#events">events</a>
+                    <a href="#announcements">announcements</a>
+                    <a href="#">curriculum vitae</a>
+                </div>
+            </div>
             <ul class="nav">
                 <li><a href="#hero">home</a></li>
                 <li><a href="#publications">publications</a></li>
@@ -21,7 +30,14 @@
                 <li><a href="#">curriculum vitae</a></li>
             </ul>
             <div class="nav-right">
-                <a class="language" href="#">EN<i class="fa-solid fa-angle-down"></i></a>
+                <div class="dropdown">
+                  <button class="language">EN<i class="fa-solid fa-angle-down"></i></button>
+                  <div class="dropdown-content">
+                    <a href="#">EN</a>
+                    <a href="#">RU</a>
+                    <a href="#">UZ</a>
+                  </div>
+                </div>
                 <ul class="social-networks">
                     <li><a href="#"><img src="images/networks-facebook.svg" alt="" width="40" height="40"></a></li>
                     <li><a href="#"><img src="images/networks-instagram.svg" alt="" width="40" height="40"></a></li>
@@ -202,7 +218,7 @@
     </main>
 
     <footer>
-        <p>@Copyright 2022. All rights reserved. Powered by <ins>MDevs Group</ins></p>
+        <p>@Copyright 2022. All rights reserved. Powered by <a href="https://mdevs.uz/" target="_blank">MDevs Group</a></p>
     </footer>
 </body>
 </html>

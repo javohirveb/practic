@@ -242,6 +242,7 @@ span {
 
     .events-items {
         flex-wrap: wrap;
+        justify-content: space-around;
     }
 
     .events-item {
@@ -271,6 +272,14 @@ span {
 
     .home-text p {
         font-size: 1.15rem;
+    }
+
+    .main-heading {
+        text-align: center;
+    }
+
+    .main-hr {
+        width: 100%;
     }
 }
 
@@ -322,6 +331,5 @@ span {
     .main-hr {
         margin-top: 0.75rem;
         background-color: #C3C3C3;
-        width: 70%;
     }
 }
