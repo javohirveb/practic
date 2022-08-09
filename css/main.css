@@ -14,8 +14,8 @@
 
 .home {
     text-align: center;
-    padding-top: 1.69rem;
-    padding-bottom: 4.32rem;
+    padding-top: 2rem;
+    padding-bottom: 5.9rem;
     background: url(../images/bg-main.png);
 }
 
@@ -72,7 +72,6 @@
     font-weight: 500;
     font-size: 1.0625rem;
     line-height: 21px;
-
 }
 
 .publications-text p {
@@ -86,22 +85,6 @@
 .publications-img-big {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 40px;
-}
-
-.link-main a {
-    display: inline-block;
-    font-weight: 700;
-    font-size: 1.125rem;
-    line-height: 22px;
-    text-decoration: none;
-    color: #0057FF;
-    border-bottom: 1px solid #0057FF;
-    margin-top: 3.125rem;
-}
-
-.link-main {
-    display: flex;
-    justify-content: center;
 }
 
 /* events section */

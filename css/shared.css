@@ -23,6 +23,22 @@ body {
     margin-right: auto;
 }
 
+.link-main {
+    display: flex;
+    justify-content: center;
+}
+
+.link-main a, .link-main-item a {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 22px;
+    text-decoration: none;
+    color: #0057FF;
+    border-bottom: 1px solid #0057FF;
+    margin-top: 3.125rem;
+}
+
 /* header section*/
 
 header {
@@ -33,8 +49,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1.875rem;
-    padding-bottom: 1.875rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .bars-main {
@@ -46,12 +62,12 @@ header ul {
     align-items: center;
 }
   
-.dropdown {
+.language-main {
     position: relative;
     display: inline-block;
 }
   
-.dropdown-content {
+.language-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
@@ -60,22 +76,22 @@ header ul {
     z-index: 1;
 }
   
-.dropdown-content a {
+.language-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
   
-.dropdown-content a:hover {
+.language-content a:hover {
     background-color: #ddd;
 }
   
-  .dropdown:hover .dropdown-content {
+.language-main:hover .language-content {
     display: block;
 }
   
-  .dropdown:hover .language {
+.language-main:hover .language {
     background-color: #ddd;
 }
 
@@ -126,6 +142,38 @@ header ul {
 
 .social-networks li:first-child {
     margin-left: 2rem;
+}
+
+/* main home section */
+
+.main-home {
+    padding: 5.5rem 0;
+}
+
+.main-home-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-home img {
+    border-radius: 50%;
+    box-shadow: 0px 4px 20px 2px rgba(0, 0, 0, 0.25);
+    margin-right: 5.5rem;
+}
+
+.main-home-content h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.625rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-home-content p {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 29px;
+    margin-top: 0.75rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* footer section */
@@ -229,7 +277,7 @@ footer p a {
     }
 
     .language {
-        font-size: 0.75rem;
+        font-size: 0.9rem;
     }
 
     .social-networks li {
