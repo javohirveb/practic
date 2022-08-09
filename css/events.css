@@ -1,0 +1,47 @@
+.events-main h1 {
+    padding-bottom: 0.75rem;
+    text-align: center;
+}
+
+.events-main hr {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0.1rem;
+}
+
+.events-ul {
+    margin-bottom: 8rem;
+}
+
+@media only screen and (max-width: 991px){
+    .events-ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .main-home-content h1 {
+        font-size: 2rem;
+    }
+}
+
+
+@media only screen and (max-width: 497px) {
+
+    .main-home {
+        padding-top: 0;
+    }
+
+    .main-home-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-home-container img {
+        margin: 1rem 0;
+    }
+
+}

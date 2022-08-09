@@ -21,7 +21,6 @@
     transform-origin: top;
 }
 
-
  .search-form input {
     width: 100%;
     border-radius: 50px;
@@ -71,6 +70,14 @@
     .main-home-content h1 {
         font-size: 2rem;
     }
+
+    .search-form label {
+       font-size: 2rem;
+   }
+
+   .search-form input {
+      font-size: 1.5rem;
+  }
 }
 
 
@@ -89,4 +96,22 @@
     .main-home-container img {
         margin: 1rem 0;
     }
+
+    .search-form label {
+       font-size: 1.5rem;
+   }
+
+   .search-form input {
+      font-size: 1.2rem;
+      padding: .75rem;
+  }
+
+  .publication-main .container ul li {
+      width: 100%;
+      margin: 0;
+  }
+
+  .publications-text {
+    margin: 0;
+  }
 }

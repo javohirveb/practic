@@ -1,0 +1,73 @@
+.bg-box {
+    background: url(../images/events-single.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 511px;
+    height: 392px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 11px 11px 0px 0px;
+}
+
+.bg-box a {
+    color: white;
+    transform: scale(2);
+    margin: 1rem;
+}
+
+.events-single {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.events-single-content {
+    margin-left: 6.5rem;
+}
+
+.events-single-content img {
+    width: 30px;
+    height: 30px;
+}
+
+.events-puzzle, .events-date, .events-user, .announcements-location{
+    display: flex;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.events-date {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .events-single {
+        flex-direction: column;
+    }
+
+    .events-single-content {
+        margin: 0;
+        padding-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    .events-puzzle, .events-date, .events-user, .announcements-location{
+        margin-top: 1.5rem;
+    }
+
+    .bg-box {
+        width: 459.9px;
+        height: 352.8px;
+    }
+}
+
+@media only screen and (max-width: 497px) {
+
+    .bg-box {
+        width: 357.7px;
+        height: 274.4px;
+    }
+}
