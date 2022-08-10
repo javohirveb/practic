@@ -29,6 +29,11 @@
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     border-right: 0;
+    outline-width: 0;
+}
+
+.search-form input:hover .search-form {
+    border: 1px solid black;
 }
 
 .search-form label {
