@@ -16,7 +16,7 @@
 @media only screen and (max-width: 991px){
     .events-ul {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
 }
 
@@ -24,6 +24,11 @@
     
     .main-home-content h1 {
         font-size: 2rem;
+    }
+
+    .events-ul {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
@@ -43,5 +48,4 @@
     .main-home-container img {
         margin: 1rem 0;
     }
-
 }
