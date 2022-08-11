@@ -31,14 +31,13 @@
                 <li><a href="curriculum-vitae.html">curriculum vitae</a></li>
             </ul>
             <div class="nav-right">
-                <div class="language-main">
-                  <button class="language">EN<i class="fa-solid fa-angle-down"></i></button>
-                  <div class="language-content">
-                    <a href="#">EN</a>
-                    <a href="#">RU</a>
-                    <a href="#">UZ</a>
-                  </div>
-                </div>
+                <form action="/action_page.php">
+                    <select name="language" id="language">
+                        <option value="EN">EN</option>
+                        <option value="Ru">RU</option>
+                        <option value="UZ">UZ</option>
+                    </select>
+                </form>
                 <ul class="social-networks">
                     <li><a href="#"><img src="images/networks-facebook.svg" alt="" width="40" height="40"></a></li>
                     <li><a href="#"><img src="images/networks-instagram.svg" alt="" width="40" height="40"></a></li>
