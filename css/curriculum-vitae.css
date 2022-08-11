@@ -11,6 +11,9 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+.basis {
     text-align: end;
 }
 
@@ -29,10 +32,22 @@
 }
 
 .blue-box {
-    width: 132px;
+    width: 10%;
     height: 10px;
     background: rgb(9, 2, 193);
     margin-right: 14px;
+}
+
+.last-div {
+    width: 50%;
+}
+
+.last-div .blue-box {
+    width: 20%;
+}
+
+.last-div .left-div {
+    width: 20%;
 }
 
 .blue-text {
@@ -48,9 +63,67 @@
 .left-div {
     text-align: end;
     margin-right: 14px;
-    width: 132px;
+    width: 10%;
 }
 
 .basis p {
     font-size: .85rem;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .blue-box {
+        width: 15%;
+        height: 10px;
+    }
+
+    .left-div {
+        width: 15%;
+    }
+
+    .last-div {
+        width: 100%;
+    }
+    
+    .last-div .blue-box {
+        width: 20%;
+    }
+    
+    .last-div .left-div {
+        width: 20%;
+    }   
+}
+
+
+
+@media only screen and (max-width: 991px) {
+
+    .blue-box {
+        width: 20%;
+        height: 10px;
+    }
+
+    .left-div {
+        width: 20%;
+    }
+
+    .last-div {
+        width: 100%;
+    }
+    
+    .last-div .blue-box {
+        width: 20%;
+    }
+    
+    .last-div .left-div {
+        width: 20%;
+    }
+
+    .curriculum-information:last-child {
+        margin-bottom: 5rem;
+        flex-direction: column;
+    }
+    .basis {
+        margin-top: 1rem;
+    }
 }
