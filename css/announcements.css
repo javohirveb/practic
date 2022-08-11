@@ -1,0 +1,14 @@
+.announcements-main-page h1 {
+    padding-bottom: 0.75rem;
+    text-align: center;
+}
+
+.announcements-main-page hr {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0.1rem;
+}
+
+.announcements-main-page {
+    margin-bottom: 4rem;
+}

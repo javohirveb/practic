@@ -55,9 +55,16 @@
     flex-wrap: wrap;
 }
 
-.publication-main .container ul li {
-    width: 50%;
-    margin: 0;
+.publications-ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.publications-ul .publications-items {
+    display: flex;
+}
+.publication-main .container ul {
+    margin-top: 0;
 }
 
 .publications-text a {
@@ -89,6 +96,11 @@
    .search-form input {
       font-size: 1.5rem;
   }
+
+  .publication-main .container ul li {
+      width: 100%;
+      margin: 0;
+  }
 }
 
 
@@ -115,11 +127,6 @@
    .search-form input {
       font-size: 1.2rem;
       padding: .75rem;
-  }
-
-  .publication-main .container ul li {
-      width: 100%;
-      margin: 0;
   }
 
   .publications-text {

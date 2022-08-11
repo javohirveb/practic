@@ -1,5 +1,5 @@
 .bg-box {
-    background: url(../images/events-single.jpg);
+    background: url(../images/events-single.png);
     background-position: center;
     background-size: cover;
     width: 511px;
@@ -7,7 +7,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 11px 11px 0px 0px;
 }
 
 .bg-box a {
@@ -36,6 +35,28 @@
     display: flex;
     align-items: center;
     margin-top: 2.5rem;
+}
+
+.events-date span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8F8F8F;
+}
+
+.events-user span, .announcements-location span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.events-puzzle span {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
 }
 
 .events-date {

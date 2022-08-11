@@ -1,0 +1,56 @@
+.curriculum-information {
+    margin-top: 4rem;
+}
+
+.curriculum-information:first-child {
+    margin-top: 0;
+}
+
+.curriculum-information:last-child {
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: end;
+}
+
+.curriculum-information h4 {
+    margin: 1rem 0;
+}
+
+.curriculum-information p {
+    margin: 7px 0;
+}
+
+.curriculum-blue {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.blue-box {
+    width: 132px;
+    height: 10px;
+    background: rgb(9, 2, 193);
+    margin-right: 14px;
+}
+
+.blue-text {
+    font-size: 1.5rem;
+    color: rgb(9, 2, 193);
+    text-transform: capitalize;
+}
+
+.curriculum-text {
+    display: flex;
+}
+
+.left-div {
+    text-align: end;
+    margin-right: 14px;
+    width: 132px;
+}
+
+.basis p {
+    font-size: .85rem;
+}
